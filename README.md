@@ -1,2 +1,37 @@
 # kaizen-healthkit
-Capacitor Health kit plugin for Kaizen Health
+
+Capacitor HealthKit plugin for Kaizen Health
+
+## Install
+
+```bash
+npm install kaizen-healthkit
+npx cap sync
+```
+
+## API
+
+<docgen-index>
+
+* [`echo(...)`](#echo)
+
+</docgen-index>
+
+<docgen-api>
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### echo(...)
+
+```typescript
+echo(options: { value: string; }) => Promise<{ value: string; }>
+```
+
+| Param         | Type                            |
+| ------------- | ------------------------------- |
+| **`options`** | <code>{ value: string; }</code> |
+
+**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+</docgen-api>
