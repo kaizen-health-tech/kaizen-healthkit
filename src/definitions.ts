@@ -68,7 +68,6 @@ export interface OtherData extends BaseData {
 export interface BaseQueryOptions {
   startDate: string;
   endDate: string;
-  operations: string[];
 }
 
 /**
@@ -76,6 +75,7 @@ export interface BaseQueryOptions {
  */
 export interface StatisticsQueryOptions extends BaseQueryOptions {
   quantityType: string;
+  operations: string[];
 }
 
 /**
