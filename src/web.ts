@@ -1,6 +1,6 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { KaizenHealthkitPlugin, StatisticsData } from './definitions';
+import type { KaizenHealthkitPlugin, QueryOutput, StatisticsData } from './definitions';
 
 export class KaizenHealthkitWeb
   extends WebPlugin
@@ -15,6 +15,10 @@ export class KaizenHealthkitWeb
   }
 
   async queryHKitStatistics(): Promise<StatisticsData> {
+    throw this.unimplemented('Not implemented on web.');
+  }
+
+  async queryHKitSampleType<T>(): Promise<QueryOutput<T>> {
     throw this.unimplemented('Not implemented on web.');
   }
 }
