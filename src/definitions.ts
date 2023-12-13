@@ -19,7 +19,6 @@ export enum HealthCategories {
 export interface BaseQueryOptions {
   startDate: string;
   endDate: string;
-  limit: number;
   operations: string[];
 }
 
