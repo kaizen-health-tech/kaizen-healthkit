@@ -7,4 +7,5 @@ CAP_PLUGIN(KaizenHealthkitPlugin, "KaizenHealthkit",
     CAP_PLUGIN_METHOD(isAvailable, CAPPluginReturnPromise);
     CAP_PLUGIN_METHOD(requestAuthorization, CAPPluginReturnPromise);
     CAP_PLUGIN_METHOD(queryHKitStatistics, CAPPluginReturnPromise);
+    CAP_PLUGIN_METHOD(queryHKitSampleType, CAPPluginReturnPromise);
 )
